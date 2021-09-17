@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
+cd code
+git clone https://github.com/poddar007/plainid_jmeter.git
 echo "*************Running entry.sh file**********"
-cd code/plainid_jmeter
+cd plainid_jmeter
 pwd
 ls
 
