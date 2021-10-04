@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1">
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.4.1"> 
   <hashTree>
     <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Test Plan" enabled="true">
       <stringProp name="TestPlan.comments"></stringProp>
@@ -81,22 +81,34 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
+               <stringProp name="Argument.value">{&#xd;
     &quot;entityId&quot;: &quot;${username}&quot;,&#xd;
     &quot;entityTypeId&quot;: &quot;GTPUser-QA&quot;,&#xd;
     &quot;clientId&quot;: &quot;PKALLQC3RKIYY3NXPV2UD&quot;,&#xd;
-    &quot;clientSecret&quot;: &quot;5l*ktTi(BvYzX(h2ZmUOlm*,HT1Aomyre9gljbxY&quot;,&#xd;
+    &quot;clientSecret&quot;: &quot;%DD+q%ZO*gM*AianWbZ2oHd0O1wlwwvH$CiYFMl)&quot;,&#xd;
+    &quot;includeAssetAttributes&quot;: false,&#xd;
     &quot;contextData&quot;: {&#xd;
-        &quot;contextClientId&quot;: [&#xd;
-            4&#xd;
-        ]&#xd;
+        &quot;contextId&quot;: [891],&#xd;
+        &quot;contextType&quot;: [&quot;client&quot;]&#xd;
     },&#xd;
     &quot;environment&quot;: {&#xd;
-    &quot;clientId&quot;: [&#xd;
-        4&#xd;
+        &quot;contextId&quot;: [891],&#xd;
+        &quot;contextType&quot;: [&quot;client&quot;]&#xd;
+    },&#xd;
+    &quot;responseType&quot;: &quot;accessDecision&quot;,&#xd;
+    &quot;listOfResources&quot;: [&#xd;
+        {&#xd;
+            &quot;resourceType&quot;: &quot;GTP_QA-usergroup&quot;,&#xd;
+            &quot;resources&quot;: [&#xd;
+                {&#xd;
+                    &quot;action&quot;: &quot;Update&quot;,&#xd;
+                    &quot;path&quot;: &quot;/client/891/usergroup/228/&quot;&#xd;
+                }&#xd;
+            ]&#xd;
+        }&#xd;
     ]&#xd;
-    }&#xd;
-}</stringProp>
+}&#xd;
+</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
