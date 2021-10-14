@@ -83,9 +83,9 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                <stringProp name="Argument.value">{&#xd;
     &quot;entityId&quot;: &quot;${username}&quot;,&#xd;
-    &quot;entityTypeId&quot;: &quot;GTPUser-QA&quot;,&#xd;
-    &quot;clientId&quot;: &quot;PKALLQC3RKIYY3NXPV2UD&quot;,&#xd;
-    &quot;clientSecret&quot;: &quot;%DD+q%ZO*gM*AianWbZ2oHd0O1wlwwvH$CiYFMl)&quot;,&#xd;
+    &quot;entityTypeId&quot;: &quot;GTPUser-QA2&quot;,&#xd;
+    &quot;clientId&quot;: &quot;PET6U8FUGNFYTWRNRQAY2&quot;,&#xd;
+    &quot;clientSecret&quot;: &quot;3Ypn3YJK,Z0jixIBEn%cayftZUC5JEZ3Z)50EnDC&quot;,&#xd;
     &quot;includeAssetAttributes&quot;: false,&#xd;
     &quot;contextData&quot;: {&#xd;
         &quot;contextId&quot;: [891],&#xd;
@@ -102,7 +102,7 @@
             &quot;resources&quot;: [&#xd;
                 {&#xd;
                     &quot;action&quot;: &quot;Update&quot;,&#xd;
-                    &quot;path&quot;: &quot;/client/891/usergroup/228/&quot;&#xd;
+                    &quot;path&quot;: &quot;/client/891/usergroup/342/&quot;&#xd;
                 }&#xd;
             ]&#xd;
         }&#xd;
